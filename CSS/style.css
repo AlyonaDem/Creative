@@ -234,12 +234,13 @@ form h3{
     color: #FFFFFF;
     border: none;
     padding: 19px 47px}
-.text_checkbox{font-family: '20 Kopeek';
+.text_checkbox{
+    font-family: '20 Kopeek';
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 140%;color: #2B59C3; margin-bottom: 30px}
-#name{
+.border_name{
     margin-bottom: 22px;
     border: 1px solid #181818;
     padding-top: 18px;
@@ -248,8 +249,9 @@ form h3{
     box-sizing: border-box;
     border-radius: 10px;
     max-width: 450px;
-    width: 100% }
-#tel{margin-bottom: 22px;
+    width: 100%;
+    display: inline-block}
+.border_tel{
     border: 1px solid #181818;
     padding-top: 18px;
     padding-bottom: 20px;
@@ -257,6 +259,7 @@ form h3{
     box-sizing: border-box;
     border-radius: 10px;
     max-width: 450px;
-    width: 100% }
+    width: 100%;
+    display: inline-block}
 
 
