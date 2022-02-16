@@ -13,13 +13,6 @@
 }
 body{margin: 0}
 header{position: absolute}
-.main{
-    max-width: 1110px;
-    width: 100%;
-    margin: auto;
-    padding-top:  31px;
-    display: flex
-    }
 
 .container_form_style{margin-right: 10px}
 .form_style{
@@ -63,7 +56,13 @@ header{position: absolute}
     display: inline-block;
     text-decoration: none}
 .m-w{max-width: 1162px; margin: auto}
-.d-flex{display: flex}
+.d-flex{display: flex;
+
+}
+.d-flex-right, .d-flex-left{display: flex;
+    align-items: center;}
+.d-flex-right{justify-content: flex-end}
+
 .What-corporate-identity{
     color: #181818;
     font-family: '20 Kopeek';
@@ -212,6 +211,9 @@ form h3{
     line-height: 110%;
     margin-bottom: 10px;
     }
+.main_container_input{
+    display: flex;
+    justify-content: space-between}
 .our_expert{font-family: '20 Kopeek';
     font-style: normal;
     font-weight: normal;
@@ -261,5 +263,6 @@ form h3{
     max-width: 450px;
     width: 100%;
     display: inline-block}
+.w-50{width: 50%}
 
 

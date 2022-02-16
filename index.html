@@ -12,11 +12,15 @@
 <body>
 <header>
     <div class="d-flex" >
-        <div class="container_form_style" ><a><img class="logo" src="image/logo.png" alt="logo"></a>
-       <p class="form_style">Разрабатываем фирменные стили с 2009 года</p></div>
-        <div><a class="tel" href="#">8 (495) 156-39-11</a>
-        <a class="f"><img src="image/f.png" alt="face book"></a>
-        <a class="f"><img src="image/insta.png" alt="instagram"></a></div>
+        <div class="d-flex-left">
+            <div class="container_form_style" ><a><img class="logo" src="image/logo.png" alt="logo"></a></div>
+            <div><p class="form_style">Разрабатываем фирменные стили с 2009 года</p></div>
+        </div>
+        <div class="d-flex-right">
+            <div><a class="tel" href="#">8 (495) 156-39-11</a></div>
+            <div><a class="f"><img src="image/f.png" alt="face book"></a></div>
+            <div><a class="f"><img src="image/insta.png" alt="instagram"></a></div>
+        </div>
     </div>
 </header>
 <section class="first_section">
@@ -100,16 +104,17 @@
     <form >
         <h3>Оставьте заявку на разработку вашего продукта </h3>
         <p class="our_expert">Наши эксперты свяжутся с вами в ближайшее время</p>
-        <div style="display: flex; justify-content: space-between">
-            <div>
+        <div class="main_container_input">
+            <div class="w-50">
                 <label for="name"></label>
                 <input class="border_name" id="name" type="text" name="name" placeholder="Ваше Имя">
             </div>
-            <div>
+            <div class="w-50">
                 <label for="tel"></label>
                  <input class="border_tel" id="tel" type="text" name="tel" placeholder="+7 (999) 999-99-99">
             </div>
         </div>
+
         <p class="text_checkbox"><label><input type="checkbox" name="checkbox"></label> <span class="span_checkbox">Я принимаю </span>условия передачи персональных данных</p>
         <button class="submit_button" type="submit">Оставить заявку</button>
     </form>
