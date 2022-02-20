@@ -156,7 +156,7 @@ div p{margin-bottom: 120px;
     margin-bottom: 50px
     }
 .section_amperia{
-    max-width: 930px; margin: auto}
+    max-width: 1110px; margin: auto}
 .amperia2_h3{
     font-family: '20 Kopeek Book';
     font-style: normal;
@@ -203,7 +203,7 @@ div p{margin-bottom: 120px;
     font-size: 16px;
     line-height: 140%;
     color: #181818; margin-bottom: 87px}
-.container_form{max-width: 930px; margin: auto}
+.container_form{max-width: 1110px; margin: auto}
 form h3{
     font-family: '20 Kopeek Book';
     font-style: normal;
@@ -265,5 +265,60 @@ form h3{
     width: 100%;
     display: inline-block}
 .w-50{width: 50%}
+.stages_creation{max-width: 1110px; margin: auto}
+.stages_creation_h2{
+    font-family: '20 Kopeek';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 55px;
+    line-height: 100%;
+    margin-top: 150px;
+    margin-bottom: 83px;
+}
+.flex_section1{display: flex; flex-direction: column; justify-content: left}
+.flex_block{width: 180px }
+.flex_section2{max-width: 560px; display: flex; justify-content: space-between; flex-wrap: wrap}
+.main_flex_section{display: flex}
+.flex_block1{width: 283px; padding-bottom: 100px}
+.flex_h3{font-family: '20 Kopeek';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    margin-bottom: 15px}
+.flex_p{font-family: '20 Kopeek';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;}
+.flex_p1{font-family: '20 Kopeek';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 110%}
 
+.pic_flex{padding-bottom: 22px;
 
+}
+.quality{background-image: url('../image/Rectangle32.jpg')}
+.quality_div{max-width: 1110px; margin: auto; padding-top: 282px}
+.quality_h2{font-family: '20 Kopeek';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 55px;
+    line-height: 100%; color: #FFFFFF
+
+}
+.flex_quality{display: flex; justify-content: right}
+.number{
+    font-family: '20 Kopeek';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 55px;
+    line-height: 100%; color: #FFFFFF; margin-right: 8px; margin-top: 40px}
+.number_P{font-family: '20 Kopeek';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px; color: #FFFFFF; margin-top: 65px;}
+.margin_r{margin-right: 28px}
